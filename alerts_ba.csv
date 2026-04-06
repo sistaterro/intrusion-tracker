@@ -1,0 +1,15 @@
+id,timestamp,ip,lat,lon,city,country,severity,subject,description
+1,2024-03-10T07:12:33Z,190.210.45.88,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,high,Login fallido repetido,Múltiples intentos de autenticación SSH desde IP local desconocida
+2,2024-03-10T07:45:11Z,190.210.45.88,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,critical,Inyección SQL detectada,Payload malicioso en parámetro de búsqueda del panel admin
+3,2024-03-10T09:03:58Z,190.210.45.89,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,high,Escaneo de puertos,Barrido sistemático de puertos 22 a 8080 desde la misma subred
+4,2024-03-10T11:27:44Z,190.210.45.88,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,critical,Firma de ransomware,Patrón de comunicación C2 coincide con variante conocida de LockBit
+5,2024-03-10T14:55:02Z,190.210.45.91,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,medium,Exfiltración de datos,Transferencia saliente inusual de 2.3 GB hacia IP externa no registrada
+6,2024-03-10T16:08:19Z,190.210.46.12,-34.579319,-58.553521,Buenos Aires,AR,high,Movimiento lateral,Acceso a recursos de red internos desde credencial comprometida
+7,2024-03-10T17:33:47Z,190.210.46.13,-34.579089,-58.553812,Buenos Aires,AR,medium,Relay de phishing,Servidor de correo utilizado como relay para campaña de phishing masiva
+8,2024-03-11T08:20:05Z,190.210.45.90,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,low,Reconocimiento OSINT,Sondeo superficial de servicios web y recoleccion de banners HTTP desde origen no habitual
+9,2024-03-11T10:42:18Z,190.210.45.92,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,medium,Enumeracion de usuarios,Intentos secuenciales de validacion de cuentas sobre el portal corporativo
+10,2024-03-12T06:58:41Z,190.210.45.94,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,medium,Fuerza bruta RDP,Multiples intentos de acceso remoto con combinaciones de credenciales filtradas
+11,2024-03-12T13:17:09Z,190.210.45.96,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,high,Evasion de WAF,Patron de solicitudes ofuscadas para evitar reglas de inspeccion en aplicacion publica
+12,2024-03-13T09:11:54Z,190.210.45.98,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,high,Descarga de payload,Intento de entrega de script remoto mediante macro maliciosa detectada por el gateway
+13,2024-03-13T18:36:27Z,190.210.45.101,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,critical,Beaconing C2,Conexion periodica hacia infraestructura externa con intervalo compatible con malware activo
+14,2024-03-14T07:49:33Z,190.210.45.103,-34.579229590594096,-58.55366969864659,Buenos Aires,AR,critical,Escalada de privilegios,Uso anomalo de token administrativo tras acceso inicial confirmado en host comprometido
