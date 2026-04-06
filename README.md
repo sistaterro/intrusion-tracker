@@ -16,8 +16,8 @@ La interfaz incluye:
 
 ## Archivos principales
 
-- [intrusion_tracker.html](./intrusion_tracker.html): aplicación principal.
-- [alerts_ba.csv](./alerts_ba.csv): dataset de ejemplo.
+- [index.html](./index.html): aplicación principal.
+- [alerts.csv](./alerts.csv): dataset de ejemplo.
 - [run.bat](./run.bat): utilidad local para ejecutar el proyecto, si corresponde a tu entorno.
 
 ## Formato del CSV
@@ -44,8 +44,8 @@ id,timestamp,ip,lat,lon,city,country,severity,subject,description
 
 ## Cómo usarlo
 
-1. Abrí [intrusion_tracker.html](./intrusion_tracker.html) en el navegador.
-2. Si el navegador permite `fetch` local en tu entorno, el archivo [alerts_ba.csv](./alerts_ba.csv) se carga automáticamente.
+1. Abrí [index.html](./index.html) en el navegador.
+2. Si el navegador permite `fetch` local en tu entorno, el archivo [alerts.csv](./alerts.csv) se carga automáticamente.
 3. Si no se carga solo, usá el botón `Load CSV` para seleccionar un archivo manualmente.
 
 ## Funcionalidades
@@ -58,7 +58,7 @@ id,timestamp,ip,lat,lon,city,country,severity,subject,description
 
 ## Personalización rápida
 
-En [intrusion_tracker.html](./intrusion_tracker.html):
+En [index.html](./index.html):
 
 - Colores base: bloque `:root`.
 - Tipografía de la escala temporal: `.tl-scale-label`.
